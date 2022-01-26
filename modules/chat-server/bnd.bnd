@@ -1,0 +1,6 @@
+Bundle-Name: Nebinger Websocket Server Side Chat
+Bundle-SymbolicName: com.dnebinger.websockets.chat
+Bundle-Version: 1.0.0
+
+Export-Package: com.dnebinger.websockets.chat
+

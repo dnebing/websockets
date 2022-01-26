@@ -1,0 +1,6 @@
+Bundle-Name: Nebinger Websocket Client Side Chat
+Bundle-SymbolicName: com.dnebinger.websockets.chat.web
+Bundle-Version: 1.0.0
+Export-Package: com.dnebinger.websockets.chat.web.constants
+
+Web-ContextPath: /chat-portlet
