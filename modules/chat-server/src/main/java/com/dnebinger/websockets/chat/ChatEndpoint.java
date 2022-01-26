@@ -24,11 +24,11 @@ import java.util.concurrent.CopyOnWriteArraySet;
 @Component(
         immediate = true,
         property = {
-                "org.osgi.http.websocket.endpoint.path=/o/websocket/chat/{username}" /* ,
+                "org.osgi.http.websocket.endpoint.path=/o/websocket/chat/{username}",
                 "org.osgi.http.websocket.endpoint.decoders=com.dnebinger.websockets.chat.ChatMessageDecoder",
                 "org.osgi.http.websocket.endpoint.encoders=com.dnebinger.websockets.chat.ChatMessageEncoder"
 
-                NOTE: These two properties cannot be set this way because of the type Liferay expects the
+                /* NOTE: These two properties cannot be set this way because of the type Liferay expects the
                 properties to be in (basically a List of Classes, not a List of class names like in other
                 properties usage.
 
